@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Rádio Cenourão</title>
+  <link rel="icon" type="image/x-icon" href="logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .logo {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+
+    .radio-name {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .player-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .cstrEmbed {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .whatsapp {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .whatsapp:hover {
+      background-color: #1ebe5d;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="logo.png" alt="Logo da Rádio" class="logo">
+  <div class="radio-name">Rádio Cenourão</div>
+  <p>Ouça agora ao vivo:</p>
+
+  <div class="player-container">
+    <!-- Player oficial do Caster.fm -->
+    <div data-type="newStreamPlayer"
+         data-publicToken="2a0c8936-3688-462c-a18f-f4b442e930bf"
+         data-theme="dark"
+         data-color="ff8000"
+         data-rendered="false"
+         class="cstrEmbed">
+      <a href="https://www.caster.fm">Shoutcast Hosting</a>
+      <a href="https://www.caster.fm">Stream Hosting</a>
+      <a href="https://www.caster.fm">Radio Server Hosting</a>
+    </div>
+  </div>
+
+  <!-- Script do widget -->
+  <script src="https://cdn.cloud.caster.fm/widgets/embed.js"></script>
+
+  <a class="whatsapp" href="https://wa.me/5516993330441?text=Quero%20pedir%20uma%20música%20na%20Rádio%20Cenourão!" target="_blank">
+    Pedir música no WhatsApp
+  </a>
+
+</body>
+</html>
