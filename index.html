@@ -5,29 +5,44 @@
   <title>Rádio Cenourão</title>
   <link rel="icon" type="image/x-icon" href="logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: white;
-      color: black;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+      color: #333;
       text-align: center;
       padding: 20px;
+      margin: 0;
     }
 
     .logo {
-      width: 150px;
-      margin-bottom: 20px;
+      width: 120px;
+      margin-bottom: 10px;
     }
 
     .radio-name {
-      font-size: 2em;
-      margin-bottom: 10px;
+      font-size: 2.5em;
+      font-weight: 700;
+      color: #e65100;
+      margin-bottom: 5px;
+    }
+
+    .slogan {
+      font-size: 1.1em;
+      font-weight: 500;
+      color: #4e342e;
+      margin-bottom: 20px;
     }
 
     .player-container {
       display: flex;
       justify-content: center;
-      margin-top: 20px;
+      margin-top: 10px;
+      margin-bottom: 30px;
     }
 
     .cstrEmbed {
@@ -37,17 +52,25 @@
 
     .whatsapp {
       display: inline-block;
-      margin-top: 20px;
+      margin-top: 10px;
       background-color: #25D366;
       color: white;
-      padding: 12px 24px;
-      border-radius: 8px;
+      padding: 12px 26px;
+      border-radius: 30px;
       text-decoration: none;
       font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: background-color 0.3s ease;
     }
 
     .whatsapp:hover {
       background-color: #1ebe5d;
+    }
+
+    .note {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 10px;
     }
   </style>
 </head>
@@ -55,6 +78,7 @@
 
   <img src="logo.png" alt="Logo da Rádio" class="logo">
   <div class="radio-name">Rádio Cenourão</div>
+  <div class="slogan">Naturalmente saudável</div>
   <p>Ouça agora ao vivo:</p>
 
   <div class="player-container">
@@ -75,14 +99,12 @@
   <script src="https://cdn.cloud.caster.fm/widgets/embed.js"></script>
 
   <a class="whatsapp" href="https://wa.me/5516993330441?text=Quero%20pedir%20uma%20música%20na%20Rádio%20Cenourão!" target="_blank">
-    Pedir música no WhatsApp
-  </a><br>
-  <a>
-    (Todas as músicas passarão por selecão)
+    🎵 Pedir música no WhatsApp
   </a>
+
+  <div class="note">
+    (Todas as músicas passarão por seleção)
+  </div>
 
 </body>
 </html>
-
-
-
